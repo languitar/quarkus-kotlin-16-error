@@ -24,5 +24,5 @@ class Foo(
     @Id
     var uuid: UUID,
 ) {
-    fun uncommentToTrigger() = 42
+    // fun uncommentToTrigger() = 42
 }
